@@ -3,6 +3,7 @@ namespace SpriteKind {
 }
 function redPress () {
     red.setImage(assets.image`redButtonPush`)
+    red.say("ME!", 500)
     red.startEffect(effects.fountain, 500)
     music.playTone(262, music.beat(BeatFraction.Whole))
     pause(500)
